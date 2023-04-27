@@ -7,6 +7,7 @@ function navbar_Scroll () {
     var ContenitoreBottone = document.getElementById("bottone");
 
 
+
     if (this.scrollY> 110) {
         ContenitoreHeader.classList.add("CHeader");
         ContainerH1.classList.add("CH1");
@@ -14,6 +15,7 @@ function navbar_Scroll () {
         LogoRidotto.classList.add("Clogo");
         ContenitoreLink.classList.add("Clinks");
         ContenitoreBottone.classList.add("CBottone");
+
 
     }
     else {
@@ -23,8 +25,10 @@ function navbar_Scroll () {
         LogoRidotto.classList.remove("Clogo");
         ContenitoreLink.classList.remove("Clink");
         ContenitoreBottone.classList.remove("CBottone");
+
     }
 
 }
 
 window.addEventListener("scroll", navbar_Scroll, false)
+

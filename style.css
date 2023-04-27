@@ -4,6 +4,7 @@
     margin: 0;
     padding:0;
 }
+
 .EsternoMargini{
     background: floralwhite;
 }
@@ -178,7 +179,7 @@ button{
     background-color: red;
     border-radius: 10px 10px 10px 10px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
     justify-content: space-between;
 }
 .blocco-fqextra-Scritta p{
@@ -252,7 +253,7 @@ button{
 
 .carousel-item{
     height: 8rem;
-    width: 1478px;
+    width: 100%;
     background: #413d3b;
     margin-left: 20px;
     margin-right: 20px;
@@ -272,7 +273,9 @@ button{
 .carousel-item active{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
+
 .ContenitoreCarosello1{
     display: flex;
     flex-direction: row;
@@ -340,7 +343,8 @@ button{
     margin-right:20px;
     vertical-align: middle;
     margin-left:20px;
-    width:850px; height:350px;
+    width:100%;
+    height:350px;
 }
 .col-lg-2{
     display: flex;
@@ -567,7 +571,7 @@ h3 {
 /* Divisione due colonne articolo e colonna piccola */
 .DueColonne{
     display: flex;
-    max-width: 1860px;
+
 }
 .col-lg-8 {
     flex: 0 0 auto;
@@ -746,7 +750,208 @@ h3 {
 
 /*RESPONSIVE--------------------------------------------------------------------*/
 
-@media (max-width: 537px) {
+@media (max-width: 482px) {
+
+    .Margini{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .CHeader{
+        height: 50px;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+        right: 0;
+        z-index: 1000;
+        margin:0;
+    }
+    .conteiner-Header{
+        float: left;
+        height:50px;
+        width:100%;
+        margin-right:15px;
+    }
+    .ScritteH1{
+        display:none;
+    }
+    .Scrittep{
+        display:none;
+    }
+    .conteiner-bottone{
+        width:30% ;
+        margin-top:10px;
+    }
+
+    .conteiner-Box{
+        width:20% ;
+        margin-right:0;
+    }
+    .CBottone{
+        width:20% ;
+    }
+
+    .conteiner-logo{
+        margin-left:0;
+        width: 188px;
+        justify-content: right;
+    }
+    .contenitoreNav{
+        display:none;
+        background:floralwhite;
+    }
+
+
+    .conteinerVuoto{
+        height: 50px;
+    }
+
+    .contenitoreNav2 {
+        width:100%;
+        overflow-x: scroll;
+    }
+    .Conteiner-icons{
+        margin-top:20px;
+    }
+
+    .blocco-fqextra{
+        overflow-x: scroll;
+    }
+    .conteinerDestra{
+        display:none;
+    }
+    .carousel-inner{
+        width:100%;
+        overflow-x: scroll;
+    }
+
+    .LineaVuota1{
+        display:none;
+    }
+    .bloccoQuotidiano{
+        display:none;
+    }
+
+    .col-lg-7 img{
+        width: 93%;
+    }
+    .col-lg-7 {
+        margin-right:20px;
+        float:left;
+    }
+    .col-lg-2{
+        float: left;
+        width: 100%;
+    }
+    .ColonnaArticolo{
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    .TitoloDescrizione2{
+        margin-left: 50px;
+    }
+    .TitoloDescrizione4{
+        margin-left: 50px;
+        margin-right:20px;
+    }
+
+    .col-lg-4{
+        float: left;
+        width: 100%;
+    }
+    .Grigio{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ImmagineSecondaColonna img{
+        float: left;
+        width: 95%;
+        height: 50%;
+    }
+    .ImmagineColonna img{
+        float: left;
+        width: 100%;
+        height: 100%;
+    }
+    .DescrizioneSecondaColonna{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreSecondaColonna{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreQuattro{
+        margin-right:20px;
+        width: 95%;
+    }
+    .ContenitoreFinale{
+        margin-right:20px;
+        width: 95%;
+    }
+    .cardColonna{
+        border-right: none;
+    }
+    hr{
+        width: 95%;
+    }
+    .ScuolaIlFattoQuotidiano img{
+        width: 95%;
+    }
+    .ScuolaIlFattoQuotidiano {
+        margin-right:20px;
+    }
+    .DescrizioneBandiera{
+        margin-right:10px;
+    }
+
+    .Rullonuovo{
+        width:100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .col-lg-3 {
+        height: 100%;
+        width: 50%;
+    }
+    .col-lg-3 img {
+        width: 98%;
+    }
+
+    .DueColonneNuovo{
+        display: flex;
+    }
+    .DueColonne{
+        display: none;
+    }
+    .ColNuova{
+        width: 100%;
+    }
+    .ImmagineNotiziaNuova img{
+        width: 100%;
+    }
+    .ImmagineNotiziaNuova {
+        margin-right:20px;
+    }
+    .Notizie{
+        width: 95%;
+        margin-right:20px;
+        flex: 0 0 auto;
+    }
+    .contenitoreLink{
+        display: none;
+    }
+    .contenitoreLink2{
+        display: none;
+    }
+    .contenitoreLink3{
+        display: flex;
+    }
+
+    .Footer-link{
+        height: 350px;
+
+    }
+}
+@media (max-width: 537px)and (min-width: 482px) {
     .Margini{
         margin-right: 0;
         margin-left: 0;
@@ -763,7 +968,7 @@ h3 {
         float: left;
         height:50px;
         width:100% ;
-        margin-right:15px;
+        margin-right:20px;
     }
     .ScritteH1{
         display:none;
@@ -772,17 +977,25 @@ h3 {
         display:none;
     }
     .conteiner-bottone{
-        width:50% ;
+        width:30% ;
         margin-top:10px;
+    }
+    button{
+        font-family: "TT Norms Pro Regular",sans-serif;
+        color:white;
+        background-color: darkred;
+        justify-content: center;
+        outline: none;
+        border-bottom: none;
+        width:150px;
+        height: 25px;
+
     }
     .conteiner-Box{
         width:20% ;
-        margin-right:0px;
+        margin-right:0;
     }
 
-    .conteiner-logo img{
-        display: none;
-    }
     .conteiner-logo{
         margin-left:0;
     }
@@ -937,7 +1150,9 @@ h3 {
     }
     .Footer-link{
         height: 350px;
-
+    }
+    .contenitoreSocial{
+        overflow-x: scroll;
     }
 }
 @media (max-width: 868px) and (min-width: 537px){
@@ -1706,9 +1921,5 @@ h3 {
     }
 
 }
-
-
-
-
 
 
